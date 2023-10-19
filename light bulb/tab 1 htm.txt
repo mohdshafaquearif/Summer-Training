@@ -1,0 +1,290 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title style="font-family: 'Brush Script MT', cursive;">
+      <img src="https://cdn.freebiesupply.com/logos/large/2x/great-adventure-holidays-logo-png-transparent.png" class="img-circle" alt="Cinque Terre" width="5%" height="5%">
+      Great Adventures
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+<!-- <app-nav></app-nav> -->
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Tab 1</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-searchbar animated="true" placeholder="Search your taste here"></ion-searchbar>
+<br>
+  <ion-segment [scrollable]="true" value="heart">
+    <ion-segment-button value="home">
+      <ion-icon name="home"></ion-icon>
+    </ion-segment-button>
+    <ion-segment-button value="heart">
+      <ion-icon name="heart"></ion-icon>
+    </ion-segment-button>
+    <ion-segment-button value="pin">
+      <ion-icon name="pin"></ion-icon>
+    </ion-segment-button>
+    <ion-segment-button value="star">
+      <ion-icon name="star"></ion-icon>
+    </ion-segment-button>
+    <ion-segment-button value="call">
+      <ion-icon name="call"></ion-icon>
+    </ion-segment-button>
+    <ion-segment-button value="globe">
+      <ion-icon name="globe"></ion-icon>
+    </ion-segment-button>
+    <ion-segment-button value="basket">
+      <ion-icon name="basket"></ion-icon>
+    </ion-segment-button>
+    <ion-segment-button value="barbell">
+      <ion-icon name="barbell"></ion-icon>
+    </ion-segment-button>
+    <ion-segment-button value="trash">
+      <ion-icon name="trash"></ion-icon>
+    </ion-segment-button>
+    <ion-segment-button value="person" [routerLink]="['/sidebar']">
+      <ion-icon name="person" >  </ion-icon>
+    </ion-segment-button>
+  </ion-segment>
+
+  <!-- <ion-button expand="block">Block</ion-button> -->
+<br>
+  <!-- <ion-button style="align-items: center;">Click Me</ion-button>  -->
+
+<br>
+  <div class="container">
+    <div class="row" style="display: flex;">
+      
+          <!-- <ion-card>
+            <img alt="Camera" src="https://shorturl.at/kotAQ" />
+            <ion-card-header>
+              <ion-card-title>Canon SLR</ion-card-title>
+              <ion-card-subtitle>Buy now - $999</ion-card-subtitle>
+            </ion-card-header>
+          
+            <ion-card-content>
+              Here's a small text description for the card content. Nothing more, nothing less.
+            </ion-card-content>
+          </ion-card> -->
+
+          <br>
+
+          <ion-card>
+            <img alt="pizza" src="https://e0.pxfuel.com/wallpapers/389/311/desktop-wallpaper-food-graphy-pizza.jpg" />
+            <ion-card-header>
+              <!-- <ion-card-title>Sony IMX8d</ion-card-title> -->
+              <ion-card-subtitle color="success">Favourite Quisine</ion-card-subtitle>
+            </ion-card-header>
+          
+            <ion-card-content style="font-family: 'Courier New', Courier, monospace; font-weight: bolder;">
+              Pizza is a dish of Italian origin consisting of a usually round, flat base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients, which is then baked at a high temperature, traditionally in a wood-fired oven.
+            </ion-card-content>
+          </ion-card>
+
+    </div>
+  </div>
+<br>
+<ion-button expand="block" style="font-family: cursive;">Search by category</ion-button>
+<br>
+  <div class="contaner">
+    <div class="row"  style="display: flex;">
+
+      <ion-card>
+        <ion-card-header>
+          <ion-card-title color="warning">Greek Pizza</ion-card-title>
+          <ion-card-subtitle color="warning">Most famous type</ion-card-subtitle>
+        </ion-card-header>
+      
+        <ion-card-content style="font-family: 'Courier New', Courier, monospace;font-weight: bolder">
+          Cheese Pizza. It should be no shocker that a classic is the statistical favorite.
+        </ion-card-content>
+      
+        <ion-button fill="clear">Order now</ion-button>
+        <ion-button fill="clear">Save for later</ion-button>
+      </ion-card>
+      
+      <br>
+
+      <ion-card>
+        <ion-card-header>
+          <ion-card-title color="warning">Pepperoni Pizza.</ion-card-title>
+          <ion-card-subtitle color="warning">Most Tasty</ion-card-subtitle>
+        </ion-card-header>
+      
+        <ion-card-content style="font-family: 'Courier New', Courier, monospace;font-weight: bolder">
+          Pepperoni Pizza. It should be no shocker that a classic is the statistical favorite.
+        </ion-card-content>
+      
+        <ion-button fill="clear">Order now</ion-button>
+        <ion-button fill="clear">Save for later</ion-button>
+      </ion-card>
+      
+      <br>
+
+      <ion-card>
+        <ion-card-header>
+          <ion-card-title color="warning">Veggie Pizza</ion-card-title>
+          <ion-card-subtitle color="warning">Always in Demand</ion-card-subtitle>
+        </ion-card-header>
+      
+        <ion-card-content style="font-family: 'Courier New', Courier, monospace;font-weight: bolder">
+          Veggie Pizza. When you want to jazz up your cheese pizza with color and texture.
+        </ion-card-content>
+      
+        <ion-button fill="clear">Order now</ion-button>
+        <ion-button fill="clear">Save for later</ion-button>
+      </ion-card>
+      
+      <br>
+
+
+      
+
+    </div>
+  </div>
+<br>
+<br>
+<ion-button expand="block" style="text-transform: initial; font-family: cursive;">Select from our Beautiful Menu</ion-button>
+<br>
+<br>
+      <ion-grid [fixed]="true">
+        <ion-row>
+          <ion-col><img src="https://img.freepik.com/premium-photo/variety-different-types-pizza_186277-5228.jpg" alt="gridpic"></ion-col>
+          <ion-col><img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80" alt="gridpic"></ion-col>
+          <ion-col><img src="https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Nnx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80" alt="gridpic"></ion-col>
+        </ion-row>
+
+        <ion-row>
+          <ion-button shape="round">Buy now</ion-button>
+          <ion-button shape="round">Buy now</ion-button> 
+          <ion-button shape="round">Buy now</ion-button>
+        </ion-row>
+
+        <ion-row>
+          <ion-col><img src="https://rb.gy/sai2t" alt="gridpic"></ion-col>
+          <ion-col><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmkLQqGlHP9BDe1gQbVC8UGf0t87W809SiouTvwxwtnERswFs1hJJwAQywMrf5fNiEayE&usqp=CAU" alt="gridpic"></ion-col>
+          <ion-col><img src="https://img.freepik.com/free-photo/top-view-pepperoni-pizza-with-mushroom-sausages-bell-pepper-olive-corn-black-wooden_141793-2158.jpg?w=360" alt="gridpic"></ion-col>
+        </ion-row>
+
+        <ion-row>
+          <ion-button shape="round">Buy now</ion-button>
+          <ion-button shape="round">Buy now</ion-button> 
+          <ion-button shape="round">Buy now</ion-button>
+        </ion-row>
+
+        <ion-row>
+          <ion-col><img src="https://images.pexels.com/photos/1146760/pexels-photo-1146760.jpeg?cs=srgb&dl=pexels-kristina-paukshtite-1146760.jpg&fm=jpg" alt="gridpic"></ion-col>
+          <ion-col><img src="https://media.istockphoto.com/id/1279000076/photo/freshly-baked-pizza-with-arugula-tomato-red-onion-and-mozzarella.jpg?s=612x612&w=0&k=20&c=rSoZDp5wdU5aSVVVc7lTNV9eWaA3KCza6FGNew6Diko=" alt="gridpic"></ion-col>
+          <ion-col><img src="https://static3.depositphotos.com/1010176/266/i/450/depositphotos_2663461-stock-photo-fresh-baked-pizza.jpg" alt="gridpic"></ion-col>
+        </ion-row>
+
+        <ion-row>
+          <ion-button shape="round">Buy now</ion-button>
+          <ion-button shape="round">Buy now</ion-button> 
+          <ion-button shape="round">Buy now</ion-button>
+        </ion-row>
+
+      </ion-grid>
+<br>
+
+<div class="contaner">
+  <div class="row"  style="display: flex;">
+
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title color="success">First row : Chicago Style.</ion-card-title>
+        <ion-card-subtitle>Most famous type</ion-card-subtitle>
+      </ion-card-header>
+    
+      <ion-card-content style="font-family: 'Courier New', Courier, monospace;font-weight: bolder">
+        Cheese Pizza. It should be no shocker that a classic is the statistical favorite.
+      </ion-card-content>
+    
+      <ion-button fill="clear"  color="success">Order for $20</ion-button>
+      <ion-button fill="clear" color="dark">Save for later</ion-button>
+    </ion-card>
+    
+    <br>
+
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title color="success">Second row : Pepperoni Pizza.</ion-card-title>
+        <ion-card-subtitle>Most Tasty</ion-card-subtitle>
+      </ion-card-header>
+    
+      <ion-card-content style="font-family: 'Courier New', Courier, monospace;font-weight: bolder">
+        Pepperoni Pizza. It should be no shocker that a classic is the statistical favorite.
+      </ion-card-content>
+    
+      <ion-button fill="clear"  color="success">Order for $10</ion-button>
+      <ion-button fill="clear" color="dark">Save for later</ion-button>
+    </ion-card>
+    
+    <br>
+
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title color="success">Third row : Veggie Pizza</ion-card-title>
+        <ion-card-subtitle>Always in Demand</ion-card-subtitle>
+      </ion-card-header>
+    
+      <ion-card-content style="font-family: 'Courier New', Courier, monospace;font-weight: bolder">
+        Veggie Pizza. When you want to jazz up your cheese pizza with color and texture, veggies are the perfect topping.
+      </ion-card-content>
+    
+      <ion-button fill="clear"  color="success">Order for $12</ion-button>
+      <ion-button fill="clear"  color="dark">Save for later</ion-button>
+    </ion-card>
+    
+    <br>
+
+  </div>
+</div>
+
+
+<br>
+
+        <ion-button expand="full" style="text-transform: initial; font-family: cursive;" > Thanks for visiting my Page </ion-button>  
+
+<br>
+
+<ion-button (click)="showImages()" expand="block" fill="clear" shape="round">
+  Show Image
+</ion-button>
+<ion-img *ngIf="showImage" [src]="imgSrc" [ngClass]="{'bordered':showImage}"></ion-img>
+<!-- <ion-buttons slot="start"> -->
+
+<br>
+
+
+<!-- <ion-grid [fixed]="true">
+  <ion-row>
+    <ion-col><img src="https://img.freepik.com/premium-photo/variety-different-types-pizza_186277-5228.jpg" alt="gridpic"></ion-col>
+    
+    <ion-col><img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80" alt="gridpic"></ion-col>
+
+    <ion-col><img src="https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Nnx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80" alt="gridpic"></ion-col>
+
+  </ion-row>
+  <ion-row>
+    <ion-col><img src="https://images.unsplash.com/photo-1495745966610-2a67f2297e5e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80" alt="gridpic"></ion-col>
+    <ion-col><img src="https://images.unsplash.com/photo-1621985499238-698dfd45b017?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80" alt="gridpic"></ion-col>
+    <ion-col><img src="https://images.unsplash.com/photo-1516961642265-531546e84af2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80" alt="gridpic"></ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col><img src="https://images.unsplash.com/photo-1541516160071-4bb0c5af65ba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="gridpic"></ion-col>
+    <ion-col><img src="https://shorturl.at/qMST9" alt="gridpic"></ion-col>
+    <ion-col><img src="https://images.unsplash.com/photo-1494168684379-764b46e4be02?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=846&q=80" alt="gridpic"></ion-col>
+  </ion-row>
+</ion-grid> -->
+
+
+</ion-content>
+
